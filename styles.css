@@ -98,7 +98,7 @@ button {
   background: var(--bright-blue);
   color: var(--very-pale-blue);
   font-family: "Red Hat Display";
-  width: 18rem;
+  width: 80%;
   border: unset;
   border-radius: 0.65rem;
   height: 3.25rem;
@@ -143,8 +143,8 @@ button:hover {
     height: 100vh;
   }
   .container {
-    width: 25.5rem;
-    height: 39.25rem;
+    width: 28rem;
+    height: 43rem;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -154,6 +154,22 @@ button:hover {
   }
 
   header {
-    height: 12.5rem;
+    height: 14rem;
   }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    padding: 0 2.75rem;
+    line-height: 1.75rem;
+    font-size: 16px;
+  }
+
+  .order-summary {
+    width: 70%;
+    padding: 1.5rem;
+  }
+
 }
